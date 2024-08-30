@@ -218,7 +218,9 @@ ul {
   flex-direction: row;
   gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
 
   @media screen and (max-width: 800px) {
     .column {
@@ -238,6 +240,8 @@ ul {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
+      gap: 100px;
+      margin-bottom: 400px;
     }
     .procolumn {
       -ms-flex: 100%;
@@ -257,5 +261,11 @@ ul {
     .littlecredit {
       flex-direction: column;
       max-width: 100%;
+    }
+    .credtext {
+      font-size: 11vw;
+    }
+    .subcredsub {
+      font-size: 8vw;
     }
   }
