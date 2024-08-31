@@ -174,10 +174,18 @@ ul {
   text-align: right;
   font-size: 6vw;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(86, 50, 80);
-  transition: 2s;
+  color: rgb(147, 76, 88);
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
 }
-.creditheader:hover { color: rgb(147, 76, 88);; 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #333239, 0 0 20px #646a81, 0 0 30px #3c35b2, 0 0 40px #404782, 0 0 50px #696cce, 0 0 60px #06045b, 0 0 70px #695aaa;
+  }
+  to {
+    text-shadow: 0 0 20px #4b465f, 0 0 30px #3a3c5d, 0 0 40px #6e6499, 0 0 50px #686094, 0 0 60px #392b75, 0 0 70px #5c5fbb, 0 0 80px #3d2b7e;
+  }
 }
 
 .pictextholder {
@@ -220,11 +228,13 @@ ul {
   width: 100%;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 10vw;
+  color: tan;
 }
 .ocnames {
   width: 100%;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 4vw;
+  margin-bottom: 50px;
 }
 
 
