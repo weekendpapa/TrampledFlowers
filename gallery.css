@@ -32,12 +32,9 @@
     flex: 33%;
     max-width: 33%;
     padding: 0 4px;
-    border-style: solid;
   }
   .credinside {
     display: flex;
-    border-style: solid;
-    border-color: pink;
     height: 50%;
     flex-direction: column;
   }
@@ -49,8 +46,6 @@
   }
   .credtext {
     display: flex;
-    border-style: solid;
-    border-color: greenyellow;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -220,6 +215,17 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
 }
+.othercredits {
+  margin-top: 450px;
+  width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10vw;
+}
+.ocnames {
+  width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4vw;
+}
 
 
   @media screen and (max-width: 800px) {
@@ -267,5 +273,8 @@ ul {
     }
     .subcredsub {
       font-size: 8vw;
+    }
+    .othercredits {
+      margin-top: 30px;
     }
   }
