@@ -181,10 +181,10 @@ ul {
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #333239, 0 0 20px #646a81, 0 0 30px #3c35b2, 0 0 40px #404782, 0 0 50px #696cce, 0 0 60px #06045b, 0 0 70px #695aaa;
+    text-shadow: 0 0 10px #5a0d51, 0 0 20px #510f49, 0 0 30px #512148, 0 0 40px #512751, 0 0 50px #6b3e67, 0 0 60px #925a90, 0 0 70px #cd8cc0;
   }
   to {
-    text-shadow: 0 0 20px #4b465f, 0 0 30px #3a3c5d, 0 0 40px #6e6499, 0 0 50px #686094, 0 0 60px #392b75, 0 0 70px #5c5fbb, 0 0 80px #3d2b7e;
+    text-shadow: 0 0 20px #4b465f, 0 0 30px #746191, 0 0 40px #6e6499, 0 0 50px #686094, 0 0 60px #57526d, 0 0 70px #676884, 0 0 80px #534f63;
   }
 }
 
@@ -235,6 +235,15 @@ ul {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 4vw;
   margin-bottom: 50px;
+}
+.bigjack {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 8vw;
+  text-align: center;
 }
 
 
