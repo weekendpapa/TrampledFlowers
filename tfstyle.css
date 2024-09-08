@@ -164,9 +164,27 @@ ul {
         width: 120%;
         height: auto;
     }
-    li a {
-        font-size: 3vw;
+    .navcrest:hover {
+        width: 130%;
+        height: auto;
+        cursor: pointer;
     }
+    li a {
+        font-size: 4vw;
+    }
+    .homeimage {
+        width: 28%;
+    }
+    .homeimage2 {
+        width: 29%;
+    }
+    .homeimage3 {
+        width: 40%;
+    }
+    .homeimage4 {
+        width: 29%;
+    }
+    
 }
 
 

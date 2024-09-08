@@ -277,8 +277,13 @@ ul {
         width: 120%;
         height: auto;
     }
+    .navcrest:hover {
+      width: 130%;
+      height: auto;
+      cursor: pointer;
+  }
     li a {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .creditheader{
       font-size: 10vw;
